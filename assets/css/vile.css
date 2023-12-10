@@ -1,0 +1,46 @@
+body{
+    background-image:url(../../web/20220823031411im_/https_/vile.sh/assets/vile.html);
+    object-fit:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center
+}
+body{
+    height:100vh;
+    object-fit:cover;
+    margin:0!important;
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:-webkit-fill-available
+}
+#main{
+    display:block!important
+}
+#video{
+    display:none
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+/*
+     FILE ARCHIVED ON 03:14:11 Aug 23, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:30:04 Aug 30, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 87.503
+  exclusion.robots: 0.1
+  exclusion.robots.policy: 0.089
+  cdx.remote: 0.067
+  esindex: 0.009
+  LoadShardBlock: 49.402 (3)
+  PetaboxLoader3.datanode: 57.545 (4)
+  load_resource: 402.331
+  PetaboxLoader3.resolve: 364.578
+*/

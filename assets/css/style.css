@@ -1,0 +1,298 @@
+@import 'https://web.archive.org/web/20220823031410cs_/https://fonts.googleapis.com/css2?family=Poppins:wght@500&amp;display=swap';
+
+.noise{
+    z-index:1
+}
+
+.fixed-fluid{
+    top:0;
+    left:0;
+    opacity:.12;
+    width:100%;
+    height:100%;
+    position:absolute;
+    pointer-events:none
+}
+.glowing-text {
+    color: white;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+}
+html{
+    height:-webkit-fill-available
+}
+body{
+    background-color:#060606;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-y: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-position:center top
+}
+#enter{
+    top:0;
+    left:0;
+    z-index:3;
+    opacity:1;
+    width:100%;
+    height:100vh;
+    cursor:pointer;
+    position:fixed;
+    text-align:center;
+    background-color:#060707;
+    transition:opacity .5s
+}
+.begin{
+    top:50%;
+    left:50%;
+    color:#fff;
+    position:absolute;
+    font-weight: normal;
+    font-size: 20px;
+    transform:translate(-50%,-50%);font-family:"Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+}
+#main{
+    z-index:2
+}
+#video{
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+    position:absolute;
+    background-size:cover;
+    background-repeat:no-repeat;
+    object-position:center center;
+    min-height:-webkit-fill-available
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #070706;
+  color: #242526;
+  text-align: center;
+}
+.row-centered {
+    text-align: center;
+}
+body {
+    background-color: rgb(6,6,6);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    margin: 100px 0 0 0;
+    font-size: 26px;
+}
+.description{
+    font-size: 17px;
+}
+input[type=text]{
+    background-color: rgb(44, 44, 44);
+    padding: 5px 8px;
+    font-size: 16px;
+    border: solid 1px rgb(133, 133, 133);
+    border-radius: 3px;
+    color: white;
+    width: 250px;
+}
+input[type=number]{
+    background-color: rgb(44, 44, 44);
+    padding: 5px 8px;
+    font-size: 16px;
+    border: solid 1px rgb(133, 133, 133);
+    border-radius: 3px;
+    color: white;
+    width: 40px;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+input[type=submit]{
+    padding: 5px 8px;
+    font-size: 16px;
+    border: solid 1px rgb(133, 133, 133);
+    background-color: rgb(61, 61, 61);
+    border-radius: 3px;
+    color: white;
+}
+div.lookup{
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+div.results{
+    width: 50%;
+    background-color: rgb(61, 61, 61);
+    border: solid 1px gray;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 6px 0;
+}
+div.result span{
+    display: inline-block;
+    width: 50%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+span.left{
+    font-weight: bold;
+}
+h4{
+    margin: 30px 0 0 0;
+    font-size: 20px;
+}
+
+.sidebar small {
+    color: #b5b5b5;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.sidebar h1 {
+    font-size: 140%;
+}
+
+.sidebar h1, .sidebar p, .sidebar small {
+    font-family: monospace !important;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75), 0px 0px 5px rgba(0, 0, 0, 0.75);
+}
+
+.cw {
+    height: 100%;
+    min-height: 100%;
+}
+
+#p {
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(240, 240, 240);
+}
+
+.sub {
+    font-size: 80%;
+}
+
+.link:before {
+    content: "[ ";
+}
+
+.link:after {
+    content: " ]";
+}
+
+.hanginggirl {
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden !important;
+    max-height: 400px;
+    filter: grayscale(1) contrast(200%);
+}
+
+.spoiler {
+    background-color: white;
+    color: white;
+}
+
+.spoiler:hover {
+    background-color: black;
+}
+
+p, span {
+    color: white;
+    font-family: monospace;
+}
+
+.nodrag {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.link, .link:visited {
+
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    white-space: pre;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+}
+
+.link:hover {
+    color: #f4ab21;
+    text-decoration: none;
+    text-underline: none;
+}
+/*
+     FILE ARCHIVED ON 03:14:10 Aug 23, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:30:05 Aug 30, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 2511.737
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.072
+  cdx.remote: 0.074
+  esindex: 0.009
+  LoadShardBlock: 2476.974 (3)
+  PetaboxLoader3.datanode: 2633.517 (4)
+  load_resource: 382.19
+  PetaboxLoader3.resolve: 211.111
+*/
