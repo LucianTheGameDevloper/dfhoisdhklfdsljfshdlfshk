@@ -1,0 +1,46 @@
+/*
+    Copyright 2023 latel88 All Rights Reserved.
+*/
+.touch-pad {
+	position: absolute;
+    font-family: "KenneyMini", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+
+.touch-pad .touch-axes {
+	z-index: 1;
+	position: absolute;
+}
+
+.touch-pad .touch-layer {
+	pointer-events: none;
+
+	z-index: 2;
+	position: absolute;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.touch-pad .touch-button, .touch-pad .touch-layout {
+	pointer-events: auto;
+
+	z-index: 2;
+	position: absolute;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	-webkit-user-select: none;
+	user-select: none;
+}

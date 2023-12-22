@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en-US"><head>
+        <meta charset="UTF-8">
+        <meta name="description" content="modern and retro mixed fps.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta name="author" content="Copyright 2023 latel88 All Rights Reserved.">
+        <meta http-equiv="cache-control" content="max-age=0">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="cache-control" content="no-store">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="preload" href="./assets/image/engine-icon.png" as="image" crossorigin="">
+        <link rel="preload" href="./assets/font/kenney_mini/kenney_mini.ttf" as="font" crossorigin="">
+        <link rel="preload" href="./assets/font/kenney_mini/kenney_mini.woff" as="font" crossorigin="">
+        <link rel="preload" href="./assets/font/kenney_mini/kenney_mini.woff2" as="font" crossorigin="">
+        <link rel="preload" href="./style/index.css" as="style" crossorigin="">
+        <title>V.R.G.</title>
+
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/touchpad.css">
+        <link rel="stylesheet" href="css/resizer.css">
+        <link rel="stylesheet" href="css/log.css">
+        <script type="module" src="js/main.js" defer=""></script>
+    </head>
+    <body>
+        <div class="resizer">
+            <div id="buffers">
+                <canvas id="raycast" class="buffer"></canvas>
+                <canvas id="ui" class="buffer"></canvas>
+                <canvas id="composite" class="buffer"></canvas>
+            </div>
+        </div>
+        <div id="loading" class="visible">
+            <div class="logo"></div>
+            <div class="message"></div>
+        </div>
+        <div id="log"></div>
+        <div id="touchpad" class="touch-pad"></div>
+    
+</body></html>

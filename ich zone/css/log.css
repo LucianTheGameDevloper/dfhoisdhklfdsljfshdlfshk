@@ -1,0 +1,28 @@
+/*
+    Copyright 2023 latel88 All Rights Reserved.
+*/
+@media (pointer: fine) { /* Rules for devices with mouse here */ }
+
+.log {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    width: 200px;
+    height: auto;
+
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 12.5px;
+    font-family: "KenneyMini", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+
+.log > * {
+    display: inline-block;
+    right: 0px;
+    text-align: right;
+    width: 200px;
+    height: calc(1em);
+}

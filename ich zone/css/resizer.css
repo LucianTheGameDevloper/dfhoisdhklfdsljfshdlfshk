@@ -1,0 +1,11 @@
+/*
+    Copyright 2023 latel88 All Rights Reserved.
+*/
+.resizer {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
